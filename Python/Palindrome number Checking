@@ -1,0 +1,10 @@
+print("please input your word")
+word=input()
+word=word.casefold()
+
+reverse_word=word[::-1]
+
+if word==reverse_word:
+    print('Given number is palindrome')
+else:
+    print('Goven number is not palindrome')
