@@ -1,0 +1,10 @@
+
+
+print("please,input the number")
+number=int(input()) #take input from user
+count=1
+
+while count<=10:
+        print(number, 'x',count,'=',number*count)
+        count=count+1
+        
