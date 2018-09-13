@@ -1,0 +1,7 @@
+##square Design of * .
+
+a=int(input())
+for item in range(0,a):
+    for item in range(0,5):
+        print('*', end=' ')
+    print('\n')
